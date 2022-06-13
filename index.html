@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="icon/favicon.png">
+</head>
+<body>
+
+    <!-- --Menu Navigasi--  -->
+    <nav>
+        <div class="logo">
+            <h4> Magic Cosmetic</h4>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+        <div class="menu-toogle">
+            <input type="checkbox"/>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    
+    <!--image slider-->
+    <div class="container_slide">
+        <div class="slider">
+            <div class="slides">
+                <!--radio buttons-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--slide images-->
+                <div class="slide first">
+                    <img src="slide/1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="slide/2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="slide/3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="slide/4.jpg" alt="">
+                </div>
+                <!--automatic navigation-->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <!--manual navigation-->
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </div>
+
+    <!-- container home -->
+    <div class="container_home">
+        <div class="btn_home">
+            <div class="btn_home1">
+                <a href="new_product.html"><span>New Product</span></a>
+            </div>
+            <div class="btn_home2">
+                <a href="best_seller.html"><span>Best Seller</span></a>
+            </div>
+            <!-- <div class="clearfix"></div> -->
+        </div>
+        <div class="content_home">
+            <div class="content_home1">
+                <p class="choco1"> Tampil Cantik </p>
+                <p class="choco2"> dengan </p>
+                <p class="choco3"> Magic </p>
+                <p class="choco4"> Cosmetic </p>
+                <p class="choco5"> Make Your Glow! </p>
+            </div>
+            <div class="image_home1">
+                <img src="icon/bunga-removebg-preview.png">
+            </div>
+            <div class="image_home2">
+                <img src="icon/makeup-removebg-preview.png">
+            </div>
+            <div class="box_home">
+                <h2> Do You See? </h2>
+                <p> Our product is the best and high quality, For some reason there is no effect indicated and really
+                    original nature composition is truth... Let See our product to click below... 
+                </p>
+                <a href="product.html"><span>Click Me!</span></a>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- footer -->
+    <footer>
+        <div class="copy_glass">
+            <div class="copyright"><span>@copyright 2022 Magic Cosmetic</span></div>
+        </div>
+    </footer>
+
+    <!-- Java script -->
+    <script src="script.js"></script>
+</body>
+</html>
